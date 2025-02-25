@@ -85,9 +85,6 @@
         <footer class="bg-white shadow mt-auto py-3">
             <div class="container">
                 <div class="text-center">
-                    <p class="mb-0 text-muted">
-                        &copy; <?php echo date('Y'); ?> Álvaro Luque Morillo
-                    </p>
                 </div>
             </div>
         </footer>
