@@ -63,7 +63,7 @@
             <div class="card shadow-sm">
                 <div class="card-body">
                     <h2 class="card-title mb-3">{{ $sale->product }}</h2>
-                    <h3 class="text-primary mb-4">€{{ number_format($sale->price, 0, ',', '.') }}</h3>
+                    <h3 class="text-primary mb-4">€{{ number_format($sale->price, 2, ',', '.') }}</h3>
                     
                     <div class="mb-4">
                         <h5>Descripción</h5>

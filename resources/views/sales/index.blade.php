@@ -56,7 +56,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-truncate">{{ $sale->product }}</h5>
                             <p class="card-text text-truncate">{{ $sale->description }}</p>
-                            <h6 class="text-primary">€{{ number_format($sale->price, 0, ',', '.') }}</h6>
+                            <h6 class="text-primary">€{{ number_format($sale->price, 2, ',', '.') }}</h6>
                         </div>
                         <div class="card-footer bg-transparent border-top-0">
                             <div class="d-grid">

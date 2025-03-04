@@ -52,7 +52,7 @@
                                         class="form-control @error('price') is-invalid @enderror" 
                                         id="price" 
                                         name="price" 
-                                        step="1" 
+                                        step="0,01" 
                                         min="0"
                                         value="{{ old('price') }}" 
                                         required
